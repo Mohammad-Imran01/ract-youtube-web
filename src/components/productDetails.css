@@ -1,0 +1,38 @@
+.card {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  /* height: 135px; */
+  width: 300px;
+}
+
+.text-all {
+  margin-top: 15px;
+}
+
+button {
+  margin-right: 10px;
+  height: 26px;
+  width: 105px;
+  border-radius: 50px;
+  border: none;
+  font-weight: bold;
+}
+.btn-add {
+  background-color: rgb(255, 240, 32);
+}
+.btn-buy {
+  background-color: rgb(255, 187, 0);
+}
+
+
+.text-price {
+    color: green;
+}
+
+.anchor-amazon {
+    color: rgb(0, 166, 255);
+}
