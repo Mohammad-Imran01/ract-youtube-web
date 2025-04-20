@@ -1,12 +1,11 @@
 import { React } from "react";
 
-import YoutubeButtons from "./components/YoutubeButtons";
-// import ProductDetails from "./components/ProductDetails";
+import CardVideoItem from "./components/CardVideoItem";
+
 function App() {
   return (
     <>
-      <YoutubeButtons />
-      {/* <ProductDetails /> */}
+      <CardVideoItem />
     </>
   );
 }

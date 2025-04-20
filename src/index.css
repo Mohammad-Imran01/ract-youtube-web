@@ -8,4 +8,10 @@ body {
   line-height: 1;
   font-weight: 400;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+#root {
+  min-width: 100vw;
+  min-height: 100vh;
 }

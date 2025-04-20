@@ -20,16 +20,6 @@ button {
   opacity: 0.75;
 }
 
-.btn-tweet {
-  border: none;
-  background-color: rgb(63, 136, 253);
-  color: white;
-  font-weight: bold;
-  height: 36px;
-  width: 70px;
-  border-radius: 35px;
-}
-
 .btn-subscribe {
   background-color: rgb(200, 0, 0);
   color: white;
@@ -45,4 +35,23 @@ button {
 }
 .btn-subscribe:active {
   opacity: 0.6;
+}
+
+.btn-tweet {
+  border: none;
+  background-color: rgb(63, 136, 253);
+  color: white;
+  font-weight: bold;
+  height: 36px;
+  width: 70px;
+  border-radius: 35px;
+  transition: opacity 0.2s;
+}
+
+.btn-tweet:hover {
+  box-shadow: 2px 3px 8px rgba(63, 136, 253, 0.35);
+}
+
+.btn-tweet:active {
+  opacity: 0.8;
 }
